@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soluciones tecnológicas innovadoras para transformar su negocio.">
+    <title>DevPortfolio - Demo Web Profesional</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header: Logotipo y Navegación Principal -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">DevPortfolio</a>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#servicios">Características</a></li>
+                    <li><a href="#nosotros">Sobre el Demo</a></li>
+                    <li><a href="#beneficios">Tecnologías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section: Introducción e impacto visual -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Sitio Web Demo Profesional</h1>
+            <p class="hero-subtitle">Proyecto demostrativo para mostrar buenas prácticas en HTML5 semántico, CSS
+                responsivo y JavaScript vanilla.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn btn-primary">Probar Formulario</a>
+                <a href="#servicios" class="btn btn-secondary">Ver Características</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios: Lista de ofertas principales -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Nuestras Soluciones</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3 class="service-title">Diseño Responsive</h3>
+                    <p class="service-description">Interfaz adaptable que se ve perfecta en móviles, tablets y
+                        escritorio.</p>
+                </article>
+                <article class="service-card">
+                    <h3 class="service-title">Código Semántico</h3>
+                    <p class="service-description">HTML5 estructurado y CSS moderno para máxima accesibilidad y
+                        mantenimiento.</p>
+                </article>
+                <article class="service-card">
+                    <h3 class="service-title">Sin Frameworks</h3>
+                    <p class="service-description">Implementación en Vanilla JS para optimizar el rendimiento y la
+                        carga.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros: Historia y Misión -->
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre este Proyecto</h2>
+            <div class="about-content">
+                <p>Este sitio web es un ejercicio de demostración técnica para portafolio.</p>
+                <p>No representa una empresa real, sino que sirve para exhibir habilidades de desarrollo frontend,
+                    diseño UI/UX básico y buenas prácticas de programación.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios: Por qué elegirnos -->
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegir TechNova?</h2>
+            <ul class="benefits-list">
+                <li class="benefit-item">
+                    <strong>Rendimiento:</strong> Optimizado para carga rápida y fluidez.
+                </li>
+                <li class="benefit-item">
+                    <strong>Interactividad:</strong> Componentes dinámicos con JavaScript.
+                </li>
+                <li class="benefit-item">
+                    <strong>Accesibilidad:</strong> Estructura clara y navegable.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contacto: Formulario e Información -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Pruébalo Ahora</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Simular Envío</button>
+            </form>
+            <div class="contact-info">
+                <p>Nota: El formulario valida los datos pero no envía correos reales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: Enlaces legales y Copyright -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-legal">
+                <p>&copy; 2024 DevPortfolio. Proyecto Demo.</p>
+                <ul class="legal-links">
+                    <li><a href="#">Ver Código</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
